@@ -35,7 +35,7 @@ func main() {
 
 	ctx, cancel := context.WithCancel(context.Background())
 
-	h, err := NewHost(config.Seed, config.Port)
+	h, err := NewHost(ctx, config.Seed, config.Port)
 	if err != nil {
 		log.Fatal(err)
 	}

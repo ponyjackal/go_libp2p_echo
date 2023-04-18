@@ -8,7 +8,7 @@ import (
 	"github.com/libp2p/go-libp2p-core/host"
 	"github.com/libp2p/go-libp2p-core/peer"
 	"github.com/libp2p/go-libp2p-core/protocol"
-	rpc "github.com/libp2p/go-libp2p-gorpc"
+	"github.com/libp2p/go-libp2p-gorpc"
 )
 
 type Service struct {
